@@ -1,0 +1,94 @@
+#content {
+max-width: 1600px;
+margin: auto;
+text-align: center;
+}
+#background {
+    height: 725px;
+    background-color:#0A639C;
+}
+nav a{
+    text-align: center;
+    color: #E2EEF5;
+    text-decoration: none;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+body {
+    background-color: #E2EEF5; 
+}
+header {
+    background-color:#0A639C;
+}
+nav a:hover {
+    background-color: #32DE8A;
+    color: black;
+}
+.book, .join {
+    background-color:#0A639C;
+}
+.book:hover, .join:hover {
+    background-color:#0A639C;
+}
+.msg {
+    background-color:#0A639C;
+}
+footer {
+    background-color:#0A639C;
+}
+.home-title {
+    color: #E2EEF5;
+}
+h4 {
+    color: #E2EEF5;
+}
+.book, .join {
+    color: #E2EEF5;
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    background-color: #32DE8A;
+    color: black;
+}
+.msg h2{
+    color: #E2EEF5;
+}
+.msg p {
+    color: #E2EEF5;
+}
+footer {
+    color: #E2EEF5;
+}
+footer a {
+    color: #E2EEF5;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color: #32DE8A;
+    color: black;
+}
+.logo {
+    width: 60%;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}  
