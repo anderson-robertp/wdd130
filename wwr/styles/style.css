@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&family=Roboto&display=swap');
+
+
 #content {
 max-width: 1600px;
 margin: auto;
@@ -5,12 +10,16 @@ text-align: center;
 }
 #background {
     height: 725px;
-    background-color:#0A639C;
+    background-color:#664147;
+}
+#logo_link {
+    padding-top: 5px;
 }
 nav a{
     text-align: center;
     color: #E2EEF5;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -24,11 +33,19 @@ nav a{
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 body {
-    background-color: #E2EEF5; 
+    background-color: #E2EEF5;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#0A639C;
+    font-family: "Old Standard TT", "Times New Roman", Baskerville;
 }
 nav a:hover {
     background-color: #32DE8A;
@@ -36,38 +53,50 @@ nav a:hover {
 }
 .book, .join {
     background-color:#0A639C;
+    color: #E2EEF5;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color:#0A639C;
+    background-color: #32DE8A;
+    color: black;
 }
 .msg {
     background-color:#0A639C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:#0A639C;
 }
 .home-title {
     color: #E2EEF5;
+    font-family: "Old Standard TT", "Times New Roman", Baskerville;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
 }
 h4 {
     color: #E2EEF5;
 }
-.book, .join {
-    color: #E2EEF5;
-    text-decoration: none;
-}
-.book:hover, .join:hover {
-    background-color: #32DE8A;
-    color: black;
-}
 .msg h2{
     color: #E2EEF5;
+    font-family: "Old Standard TT", "Times New Roman", Baskerville;
 }
 .msg p {
     color: #E2EEF5;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     color: #E2EEF5;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #E2EEF5;
@@ -82,6 +111,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -91,4 +121,13 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}  
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
