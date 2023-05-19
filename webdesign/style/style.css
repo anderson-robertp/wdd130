@@ -1,0 +1,28 @@
+header {
+    margin: auto;
+    text-align: center;
+}
+#circles {
+    width: 100%;
+}
+main {
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+}
+#desk {
+    display: block;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+}
+#graphic {
+    display: block;
+    height: 300px;
+}
+#person {
+    display: block;
+    height: 300px;
+}
+
+
