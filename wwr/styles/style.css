@@ -196,6 +196,37 @@ footer .social img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#taren-text{
+    grid-column: 1/2;
+}
+.taren-image{
+    grid-column: 2/3;
+    grid-row: 1;
+    width: 100%;
+}
+.white-image{
+    grid-column: 1/2;
+    grid-row: 3;
+    width: 100%;
+}
+#white-text{
+    grid-row: 3;
+    grid-column: 2/3;
+}
+#wine-text{
+    grid-row: 4;
+    grid-column: 1/2;
+}
+.wine-image{
+    grid-column: 2/3;
+    grid-row: 4;
+    width: 100%;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
