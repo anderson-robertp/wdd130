@@ -196,9 +196,14 @@ footer .social img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-.rivers-grid{
+.river1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+}
+.river2{
+    display: grid;
+}
+.river3{
+    display: grid;
 }
 #taren-text{
     grid-column: 1/2;
