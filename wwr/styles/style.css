@@ -196,40 +196,58 @@ footer .social img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.river-titles{
+    font-size: 26px;
+}
 .river1{
     display: grid;
+    grid-gap: 10px;
 }
 .river2{
     display: grid;
+    grid-gap: 10px;
 }
 .river3{
     display: grid;
+    grid-gap: 10px;
 }
 #taren-text{
     grid-column: 1/2;
+    font-family: "Old Standard TT", "Times New Roman", Baskerville;
+    border: 10px solid black;
+    color: #E2EEF5;
+    background-color:#664147;
 }
 .taren-image{
     grid-column: 2/3;
-    grid-row: 1;
     width: 100%;
+    border: 10px solid black;
 }
 .white-image{
     grid-column: 1/2;
-    grid-row: 3;
+    grid-row: 2;
     width: 100%;
+    border: 10px solid black;
 }
 #white-text{
-    grid-row: 3;
     grid-column: 2/3;
+    grid-row: 2;
+    font-family: "Old Standard TT", "Times New Roman", Baskerville;
+    border: 10px solid black;
 }
 #wine-text{
-    grid-row: 4;
     grid-column: 1/2;
+    grid-row: 2;
+    font-family: "Old Standard TT", "Times New Roman", Baskerville;
+    border: 10px solid black;
+    background-color:#0A639C;
+    color: #E2EEF5;
 }
 .wine-image{
     grid-column: 2/3;
-    grid-row: 4;
+    grid-row: 2;
     width: 100%;
+    border: 10px solid black;
 }
 
 @media screen and (max-width: 900px) {
