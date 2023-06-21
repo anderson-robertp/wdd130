@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+header {
+    background-color:#0A639C;
+    font-family: Baskerville, "Times New Roman", Baskerville;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+body {
+    background-color:#9AADBF;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color:#0A639C;
+}
