@@ -19,3 +19,29 @@ body {
 footer {
     background-color:#0A639C;
 }
+/* Home page specific */
+
+
+/* Story specific */
+
+
+/*Character specific */
+.character-stats {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .character-stats h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .stat-label {
+    font-weight: bold;
+  }
+  
+  .stat-value {
+    margin-left: 5px;
+  }
