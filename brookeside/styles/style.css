@@ -7,10 +7,29 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+#content {
+max-width: 1600px;
+margin: auto;
+text-align: center;
+}
+.logo{
+  width: 100%;
+  grid-column: 1;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a{
+  text-align: center;
+  color: #E2EEF5;
+  text-decoration: none;
+  padding: 35px;
+}
 
 body {
     background-color:#9AADBF;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -18,9 +37,48 @@ body {
 
 footer {
     background-color:#0A639C;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /* Home page specific */
+main section {
+  text-align: center;
+}
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px;
+}
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+  font-family: Baskerville, "Times New Roman", Baskerville;
+  color: #9AADBF;
+}
+#hero-msg h1{
+  text-align: center;
+}
+#hero-msg h4{
+  text-align: center;
+  color: white;
+}
 
+
+
+#countdown {
+  font-size: 72px;
+  text-align: center;
+  font-family: Baskerville, "Times New Roman", Baskerville;
+}
 
 /* Story specific */
 

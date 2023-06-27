@@ -11,7 +11,7 @@
     <div id="content">
         <header>
             <a href="index.html" id="logo_link"></a>
-                <img class="logo" src="images/beslogo2.png" alt="Brookside Exploration Society Logo">
+                <img class="logo" src="images/midjourney-shield-trans.png" alt="Brookside Exploration Society Logo">
             <nav>
                 <a href="index.html">Home</a>
                 <a href="story.html">The Story So Far</a>
@@ -25,14 +25,62 @@
                 <img id="hero-img" src="images/tiamat.jpg" alt="Tiamat rising from the portal">
             </div>
             <section id="hero-msg">
+                <div id="countdown"></div>
                 <h1 class="home-title">Fight the Tyranny of Dragons</h1>
             </section>
         </div>
+        
         <main class="">
-            <p>The Brookside Exploration Society is reaching the finale of their years-long quest to end 
-                the threat of Tiamat and the Cult of the Dragon. This a live play ttrpg stream that is sure 
-                to entertain. Everyone is welcome: from the noob to the veteran. Come watch as the society 
-                tries to thwart Severin and the cult as they attempt to summon Tiamat and begin the Tyranny of Dragons!</p>
+            
+            <p>
+                The Brookside Exploration Society, a group of adventurers, is about to 
+                embark on the climactic conclusion of their epic quest to put an end to 
+                the menacing threat of Tiamat and the Cult of the Dragon. This thrilling 
+                adventure unfolds in the form of a live play tabletop role-playing game 
+                (TTRPG) stream, promising an exciting and entertaining experience for all 
+                viewers.
+            </p>
+            <p>
+                Whether you're a novice or a seasoned veteran in the world of TTRPGs, 
+                this stream welcomes everyone. It's an opportunity to witness the 
+                culmination of years of storytelling and gameplay as the Brookside 
+                Exploration Society faces their greatest challenge yet. The fate of the 
+                world hangs in the balance as they strive to foil the plans of Severin 
+                and the cult, who are on the verge of summoning Tiamat, the five-headed 
+                dragon of immense power.
+            </p>
+            <p>
+                As the story unfolds, you'll have a front-row seat to the heroes' 
+                journey. The players, guided by a skilled game master, will employ their 
+                unique abilities, strategic thinking, and teamwork to thwart the cult's 
+                sinister plans. Expect epic battles, tense encounters, and gripping 
+                narrative moments as they race against time to prevent the onset of the 
+                dreaded Tyranny of Dragons.
+            </p>
+            <p>
+                The live play format brings an interactive and immersive experience to 
+                the audience. You'll witness the players' decision-making, dice rolls, 
+                and the unfolding consequences of their actions. Engage with the stream 
+                through chat, where you can share your thoughts, root for your favorite 
+                characters, and join fellow fans in the excitement of this thrilling 
+                adventure.
+            </p>
+            <p>
+                The Brookside Exploration Society's finale promises not only an 
+                enthralling story but also a celebration of the TTRPG community. 
+                It's a testament to the power of collaborative storytelling and the bonds 
+                forged at the gaming table. Whether you're seeking thrilling 
+                entertainment, inspiration for your own TTRPG campaigns, or simply the 
+                joy of shared adventures, this live play stream is sure to deliver an 
+                unforgettable experience.
+            </p>
+            <p>
+                So mark your calendars and prepare to be enthralled as the Brookside 
+                Exploration Society takes on their ultimate challenge, facing Tiamat 
+                and the Cult of the Dragon. Join the stream and become a part of this 
+                extraordinary journey towards victory and the preservation of the realms.
+            </p>
+            
             <img id="countdown" src="images/BouncyIncompleteHerald-size_restricted.gif" alt="summoning circle">
         </main>
         <footer>
@@ -55,5 +103,33 @@
             </div>
         </footer>
     </div>
+    <script>
+        // Set the date and time for the countdown
+        const countdownDate = new Date("2023-12-24T23:59:59").getTime();
+
+        // Update the countdown every second
+        const countdownTimer = setInterval(function() {
+            // Get the current date and time
+            const now = new Date().getTime();
+  
+            // Calculate the time remaining
+            const distance = countdownDate - now;
+  
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+            // Display the countdown in the HTML element with id="countdown"
+            document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  
+                // If the countdown is finished, display a message
+                if (distance < 0) {
+                clearInterval(countdownTimer);
+                document.getElementById("countdown").innerHTML = "Countdown has ended!";
+            }
+        }, 1000);
+    </script>
 </body>
 </html>
