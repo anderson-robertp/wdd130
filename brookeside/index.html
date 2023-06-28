@@ -21,9 +21,11 @@
         </header>
     
         <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/tiamat.jpg" alt="Tiamat rising from the portal">
-            </div>
+            <div class="image-container">
+                <img class="myslides" src="images/tiamat.jpg" alt="Image 1">
+                <img class="myslides" src="images/group.png" alt="Image 2">
+                <img class="myslides" src="images/battalemap.png" alt="Image 3">
+              </div>
             <section id="hero-msg">
                 <div id="countdown"></div>
                 <h1 class="home-title">Fight the Tyranny of Dragons</h1>
@@ -103,7 +105,7 @@
             </div>
         </footer>
     </div>
-    <script>
+    <script id="coutdown">
         // Set the date and time for the countdown
         const countdownDate = new Date("2023-12-24T23:59:59").getTime();
 
@@ -130,6 +132,22 @@
                 document.getElementById("countdown").innerHTML = "Countdown has ended!";
             }
         }, 1000);
+    </script>
+    <script id="slide-show">
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("myslides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 3 seconds
+        }           
     </script>
 </body>
 </html>
