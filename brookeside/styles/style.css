@@ -115,7 +115,7 @@ main section {
 
 .parallax {
   /* The image used */
-  background-image: url("../images/midjourney-renault.jpg");
+  background-image: url("/brookeside/images/midjourney-renault.jpg");
   
 
   /* Set a specific height */
@@ -141,7 +141,7 @@ main section {
 }
 .parallax3 {
   /* The image used */
-  background-image: url("../images/midjourney-cult.png");
+  background-image: url("brookeside/images/midjourney-cult.png");
   
 
   /* Set a specific height */
@@ -154,7 +154,7 @@ main section {
 }
 .parallax4 {
   /* The image used */
-  background-image: url("../images/midjourney-wagon.png");
+  background-image: url("brookeside/images/midjourney-wagon.png");
   
 
   /* Set a specific height */
@@ -167,7 +167,7 @@ main section {
 }
 .parallax5 {
   /* The image used */
-  background-image: url("../images/midjourney-lodge.png");
+  background-image: url("brookeside/images/midjourney-lodge.png");
   
 
   /* Set a specific height */
@@ -180,7 +180,7 @@ main section {
 }
 .parallax6 {
   /* The image used */
-  background-image: url("../images/pib_cloud_castle.jpg");
+  background-image: url("brookeside/images/pib_cloud_castle.jpg");
   
 
   /* Set a specific height */
@@ -193,7 +193,7 @@ main section {
 }
 .parallax7 {
   /* The image used */
-  background-image: url("../images/midjourney-waterdeep.png");
+  background-image: url("brookeside/images/midjourney-waterdeep.png");
   
 
   /* Set a specific height */
@@ -206,7 +206,7 @@ main section {
 }
 .parallax8 {
   /* The image used */
-  background-image: url("../images/midjourney-waterdeep.png");
+  background-image: url("brookeside/images/midjourney-waterdeep.png");
   
 
   /* Set a specific height */
