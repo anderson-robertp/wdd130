@@ -115,7 +115,7 @@ main section {
 
 .parallax {
   /* The image used */
-  background-image: url("brookeside/images/midjourney-renault.jpg");
+  background-image: url("/brookeside/images/midjourney-renault.jpg");
   
 
   /* Set a specific height */
@@ -128,7 +128,7 @@ main section {
 }
 .parallax2 {
   /* The image used */
-  background-image: url("brookeside/images/greenest-attack.png");
+  background-image: url("../images/greenest-attack.png");
   
 
   /* Set a specific height */
