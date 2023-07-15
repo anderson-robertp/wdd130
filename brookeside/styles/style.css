@@ -249,3 +249,15 @@ main section {
 .t-biography{
   grid-column: 2;
 }
+#kathdal{
+  display: grid;
+  grid-template-columns: auto;
+}
+#grim{
+  display: grid;
+  grid-template-columns: auto;
+}
+#doyle{
+  display: grid;
+  grid-template-columns: auto;
+}
